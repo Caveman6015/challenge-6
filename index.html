@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1> Weather Dashboard</h1>
+        </div>
+    </header>
+    <div>
+        <div class="container">
+            <main>
+                <div class="left">
+                    <h2>Search for a city</h2>
+                    <input class="search-input" id="search-input" placeholder="Cape May" />
+                    <button class="search-btn" id="search-btn">Search</button>
+                    <div id="prev-searches" class="prev-searches">
+
+                </div>
+                    <div class="div-right">
+                        <div class="curr-day-forcast">
+                            <span class="weather-box">
+                                <h3 id="city-name">Cape May</h3>
+                                <h3 id="thedate">2/1/23</h3>
+                                <img id="weather-img" style="max-height:3rem;" src=""
+                                    alt="image of weather predicted for the day">
+                            </span>
+                            <p>Temp: <span id="temp">38f</span> </p>
+                            <p>Wind: <span id="wind">8mph</span> </p>
+                            <p>Humidity: <span id="humidity">4%</span></p>
+                        </div>
+                        <div>
+                            <h1>5 day forcast</h1>
+                            <div class="forcast">
+                                <h3 id="future-1"></h3>
+                                <p>Temp: <span id="temp"></span> </p>
+                                <p>Wind: <span id="wind"></span> </p>
+                                <p>Humidity: <span id="humidity"></span></p>
+                            </div>
+                            <div class="forcast">
+                                <h3 id="future-2"></h3>
+                                <p>Temp: <span id="temp"></span> </p>
+                                <p>Wind: <span id="wind"></span> </p>
+                                <p>Humidity: <span id="humidity"></span></p>
+                            </div>
+                            <div class="forcast">
+                                <h3 id="future-3"></h3>
+                                <p>Temp: <span id="temp"></span> </p>
+                                <p>Wind: <span id="wind"></span> </p>
+                                <p>Humidity: <span id="humidity"></span></p>
+                            </div>
+                            <div class="forcast">
+                                <h3 id="future-4"></h3>
+                                <p>Temp: <span id="temp"></span> </p>
+                                <p>Wind: <span id="wind"></span> </p>
+                                <p>Humidity: <span id="humidity"></span></p>
+                            </div>
+                            <div class="forcast">
+                                <h3 id="future-5"></h3>
+                                <p>Temp: <span id="temp"></span> </p>
+                                <p>Wind: <span id="wind"></span> </p>
+                                <p>Humidity: <span id="humidity"></span></p>
+                            </div>
+                        </div>
+                        
+                </div>
+            </main>
+        </div>
+    </div>
+    <script defer src="./assets/script.js"></script>
+</body>
+
+</html>
